@@ -1,9 +1,32 @@
-# Table of content
-Todo  
-Should contain links to other headers  
-
 # client-guidelines
-Guidelines for code, architecture, design in front-end apps
+Guidelines for code, architecture, design in front-end apps.  
+In table of content chapters with a "--> contains content" behind it yet contain content.  
+Other chapters probably do not contain content yet.  
+
+# Table of content
+[Summary](#summary)   
+[What to contribute](#what-to-contribute)   
+[When to contribute](#when-to-contribute)    
+[Contribute Format](#contribute-format)    
+[Content](#content)  
+[HTML](#html)  
+[CSS](#css)  
+
+- [Which entities / Units ?](#which-entities-/-units-?)
+  * [Pixels / REM / EM / % / VH](#pixels-/-rem-/-em-/-%-/-vh)
+  * [HSLA / RGB / Color-name](#hsla-/-rgb-/-color-name)
+- [Positioning and layout](#positioning-and-layout)   --> contains content  
+- [Hide items on page](#hide-item-on-page)  
+- [Animation](#animation)  
+- [Selectors](#selectors)    
+- [Scoping](#scoping)  
+- [Grouping attributes within selectors](#grouping-attributes-within-selectors)  
+- [Code re-use](#code-re-use)  
+
+[JavaScript](#javascript) 
+- [State management](#state-management)  
+- [Component based architecture](#component-based-architecture)  
+- [Mitigate side effects](#mitigate-side-effects)   
 
 # Summary
 Goal of this document is for front-end developers to look up what would be the preferred solution for a given problem.  
@@ -14,12 +37,12 @@ The information in this repo should allow developer to:
 
 - Find within reasonable time if this repo contains solution to the problem
 - Judge if the information is applicable for the encountered problem
-- Understand why the solution is preferred over other solutions
+- Understand if/why the solution is preferred over other solutions
 - Implement the solution described in this repository
 - Judge if the information is outdated
 - See where the information is coming from
 
-# What to Contribute
+#  What to Contribute
 Developers may contribute to this document via pull request.  
 Always be critical when to add more content.
 Searching in this document can also cost time.  
@@ -31,23 +54,18 @@ For problems and solutions to add to this repository at least one of the followi
 - It is difficult to select the right answer from a pile of not so good answers that pop up through google or stack-overflow
 - The answer might be different because of our specific domain, architecture, app, customer etcetera.
 
+# When to contribute
+Whenever you **implemented** OR **reviewed** a feature that:  
+- Is not yet in this repo  
+- Meets the requirements of [What to contribute](#what-to-contribute)
+
+
 # Contribute Format
 
-- Title: descriptive title
-- Tags: Will later be used for search engine.
-- date (things may outdate fast, it is good to see when it was last touched. Is this needed with git though?) 
-- the source, could be stack overflow answer, forum,  blog, github repo, book, or your own brains.  
-  * Also copy the relevant section, since links may rot
-- explanation why this is the best approach. Could be copy pasted from source, but be critical.
-  * advantages
-  * disadvantages
-- Code snippets and README.md in its own folder within this repository's ./code folder. See Example Contribution header.
-- A link to the README.md file in the code sippet's folder. Add link under relevant header under Content.
-- Relation to our own architecture. Someone might argue that sass object extension is best but we do not have set up sass. So for us it might be a huge extra overhead
-- Optional: Emerging technologies that may change the answer. Keep it short
-- Optional: Alternatives and when they should be considered. Depending on relevance keep it short.
-
-# Example Contribution
+Please have a look at the first article is this repository:  
+[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)  
+Also add the link under the relevant header below.  
+In the [Table of content](#table-of-content) add a "--> contains content" behind the link to mark that it has at least one article. 
 
 # Content
 For now we focus on CSS because that is where most Chaos is.
@@ -58,6 +76,7 @@ I also find it hardest to find good answers online.
 ### Pixels / REM / EM / % / VH 
 ### HSLA / RGB / Color-name
 ## Positioning and layout
+[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
 ## Hide items on page
 ## Animation
 ## Selectors

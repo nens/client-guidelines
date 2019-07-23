@@ -1,0 +1,52 @@
+<!-- 
+This example is as from:
+https://webdesign.tutsplus.com/tutorials/building-responsive-forms-with-flexbox--cms-26767
+But I changed some classes how I think is better
+-->
+<!-- form does nothing  -->
+<!-- <form> -->
+  <ul class="hide-list-design flex-outer">
+    <li class="key-value-wrap">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" placeholder="Enter your first name here">
+    </li>
+    <li class="key-value-wrap">
+      <label for="last-name">Last Name from individual</label>
+      <input type="text" id="last-name" placeholder="Enter your last name here">
+    </li>
+  </ul>
+<!-- </form> -->
+
+<style>
+/* list without bullets and padding */
+ul.hide-list-design,
+ol.hide-list-design {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* make each key value pair a flexbox container */
+.key-value-wrap {
+  display: flex;
+  flex-direction: row; /* this is the default, but I like explicit */
+  /* wrap so items can go to next line if horizontal space becomes to narrow */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.key-value-wrap > :nth-child(1) {
+  /* flex: 1 0 120px; */
+  /* I rather write all flex details out */
+  flex-basis: 120px; /* minimal size*/
+  max-width: 220px; /* maximal size*/
+  flex-grow: 1; /* grow untill max width */
+  flex-shrink: 0; /* never shrink smaller then flex-basis */
+  
+}
+
+.key-value-wrap > :nth-child(2) {
+  flex-basis: 220px; /* minimal size*/
+  flex-grow: 1; /* grow forever, since no max-width is specified */
+  flex-shrink: 0; /* never shrink smaller then flex-basis */
+}
+</style>
