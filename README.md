@@ -30,7 +30,7 @@ Other chapters probably do not contain content yet.
 
 # Summary
 Goal of this document is for front-end developers to look up what would be the preferred solution for a given problem.  
-It is merely a collection of problems and potential solutions.  
+It is a collection of problems and potential solutions.  
 This document should also serve as a good way to navigate trough these solutions.  
 
 The information in this repo should allow developer to:
@@ -52,7 +52,7 @@ For problems and solutions to add to this repository at least one of the followi
 - Took considerable amount of time to look up through other channels (google, stack-overflow, other repo's)
 - Looking it up took more knowledge about the problem then would be considered normal for a junior developer.
 - It is difficult to select the right answer from a pile of not so good answers that pop up through google or stack-overflow
-- The answer might be different because of our specific domain, architecture, app, customer etcetera.
+- Our answer to the problem might be different from mainstream, because of our specific technology, domain, architecture, app, customer etcetera.
 
 # When to contribute
 Whenever you **implemented** OR **reviewed** a feature that:  
@@ -65,11 +65,14 @@ Whenever you **implemented** OR **reviewed** a feature that:
 Please have a look at the first article is this repository:  
 [scale + wrap label and input depending on width](./code/wrap_label_input/README.md)  
 Also add the link under the relevant header below.  
-In the [Table of content](#table-of-content) add a "--> contains content" behind the link to mark that it has at least one article. 
+In the [Table of content](#table-of-content) add a "--> contains content" behind the link to mark that it has at least one article.  
+Please make sure all links are working so users can navigate fast.  
+If you disagree with any format/structure of this repository please let me know (Tom).  
 
 # Content
-For now we focus on CSS because that is where most Chaos is.
-I also find it hardest to find good answers online.
+For now I (Tom) focus on CSS, because that is where most chaos is.  
+I also find it hardest for CSS to find good answers online.  
+Feel free to add good JavaScript or HTML answers (or mixes of those).  
 # HTML
 # CSS
 ## Which entities / Units ?
