@@ -76,8 +76,8 @@ Feel free to add good JavaScript or HTML answers (or mixes of those).
 # HTML
 # CSS
 ## Which entities / Units ?
-### Pixels / REM / EM / % / VH 
-### HSLA / RGB / Color-name
+### Pixels / REM / EM / % / VH or VW / 
+### HSLA / RGB(A) / RGB / Color-name
 ## Positioning and layout
 [scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
 ## Hide items on page
@@ -85,6 +85,8 @@ Feel free to add good JavaScript or HTML answers (or mixes of those).
 ## Selectors
 ## Scoping
 ## Grouping attributes within selectors
+## Grouping selectors over CSS files
+## Naming conventions Classes / Id's
 ## Code re-use
 # JavaScript
 ## State management
