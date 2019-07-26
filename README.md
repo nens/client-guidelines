@@ -15,18 +15,25 @@ Other chapters probably do not contain content yet.
 - [Which entities / Units ?](#which-entities-/-units-?)
   * [Pixels / REM / EM / % / VH](#pixels-/-rem-/-em-/-%-/-vh)
   * [HSLA / RGB / Color-name](#hsla-/-rgb-/-color-name)
-- [Positioning and layout](#positioning-and-layout)   --> contains content  
+- [Positioning and layout](#positioning-and-layout)
+  * [Auto Wrapping](#auto-wrapping)   --> contains content
+  * [Auto Scaling](#auto-scaling)    --> contains content
+  * [Battle of layout - table block flex grid absolute](#battle-of-layout---table-block-flex-grid-absolute)
+  * [Old style positioning - float-left display-block](#old-style-positioning---float-left-display-block)
 - [Hide items on page](#hide-item-on-page)  
 - [Animation](#animation)  
 - [Selectors](#selectors)    
 - [Scoping](#scoping)  
 - [Grouping attributes within selectors](#grouping-attributes-within-selectors)  
-- [Code re-use](#code-re-use)  
+- [Code re-use](#code-re-use)
+- [best practices responsive designs](#best-practices-responsive-designs)  
 
 [JavaScript](#javascript) 
 - [State management](#state-management)  
 - [Component based architecture](#component-based-architecture)  
 - [Mitigate side effects](#mitigate-side-effects)   
+- [Object oriented and Functional programming](#object-oriented-and-functional-programming)
+- [Bad practices](#bad-practices)
 
 # Summary
 Goal of this document is for front-end developers to look up what would be the preferred solution for a given problem.  
@@ -79,7 +86,12 @@ Feel free to add good JavaScript or HTML answers (or mixes of those).
 ### Pixels / REM / EM / % / VH or VW / 
 ### HSLA / RGB(A) / RGB / Color-name
 ## Positioning and layout
+### Auto Wrapping
 [scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
+### Auto Scaling
+[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
+### Battle of layout - table block flex grid absolute
+### Old style positioning - float-left display-block
 ## Hide items on page
 ## Animation
 ## Selectors
@@ -88,9 +100,12 @@ Feel free to add good JavaScript or HTML answers (or mixes of those).
 ## Grouping selectors over CSS files
 ## Naming conventions Classes / Id's
 ## Code re-use
+## best practices responsive designs
 # JavaScript
 ## State management
 ## Component based architecture
 ## Mitigate side effects
+## Object oriented and Functional programming
+## Bad practices
 
 
