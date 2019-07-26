@@ -91,6 +91,24 @@ Feel free to add good JavaScript or HTML answers (or mixes of those).
 ### Auto Scaling
 [scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
 ### Battle of layout - table block flex grid absolute
+#### Tables:
+When something is a table we should try using a table, but ...
+Tables are missing a few vital features:
+
+- Tables cannot have a scrollabel body ( this is a real problem)
+- Tables cannot wrap columns ( able to workaround with media queries end conditional displaying columns, but still very cumbersome)
+#### Flexbox
+Flexbox is scrollable and can wrap, but..
+"cells" on top of each other will not align, unless specified a min or max width.
+This makes sense because flexbox is NOT a 2-dimensional layout system (grid is).
+Therefore making tables in flexbox maybe a bad idea.
+
+#### GRID
+Grid may be the solution, but I lack the knowledge there (Tom).
+Also grid is not supported on Internet Explorer 11 (probably never going to be supported).
+We should investigate on this.
+
+
 ### Old style positioning - float-left display-block
 ## Hide items on page
 ## Animation
