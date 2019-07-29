@@ -13,6 +13,20 @@
 </td></tr>
 
 <tr><td>
+  Problem
+</td><td>
+If the space to show 2 elements next to each other becomes to small,  
+then they can often be shown beneath each other.  
+This is called wrapping and can happen automaticly with CSS based on the available space.   
+Below is an example using flexbox to scale a input + label.  
+  
+Some elements can both be small or big.  
+They should simply take up the available space.  
+Below this is done for a input element using flexbox.  
+</td></tr>
+
+
+<tr><td>
   tags
 </td><td>
   flexbox, scale, wrap, responsive, input, label, small-screen, align
@@ -128,13 +142,6 @@
 
 
 # Discussion
-I preferred writing out all flex properties instead of using the flex short-hand,   
-because I feel the flex short-hand is confusing.  
-Anyway, writing out all properties is confusing too.   
-Maybe we should just use whatever works.  
-
-I used CSS child selectors, but this might be done with simply adding classes as well.  
-Maybe this could be explained in another article under CSS / Selectors.  
 
 For now the flex-basis of the label is hardcoded in order for both items in the row to scale the same.  
 If flex-basis was not hardcoded then both labels would get a different width.  
@@ -144,6 +151,16 @@ Tables align automaticly, but will not wrap or scroll.
 Instead of using min-width, fles-basis is used.  
 The only reason (known by me) for this is that this simply works.  
 I do not understand the logic behind this and or if this is a bug.  
+
+I preferred writing out all flex properties instead of using the flex short-hand,   
+because I feel the flex short-hand is confusing.  
+Anyway, writing out all properties is confusing too.   
+Maybe we should just use whatever works.  
+
+I used CSS child selectors, but this might be done with simply adding classes as well.  
+Maybe this could be explained in another article under CSS / Selectors.  
+
+
 
 
 

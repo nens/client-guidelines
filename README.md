@@ -87,9 +87,18 @@ Feel free to add good JavaScript or HTML answers (or mixes of those).
 ### HSLA / RGB(A) / RGB / Color-name
 ## Positioning and layout
 ### Auto Wrapping
-[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
+Problem:  
+If the space to show 2 elements next to each other becomes to small,  
+then they can often be shown beneath each other.  
+This is called wrapping and can happen automaticly with CSS based on the available space.  
+Below is an example using flexbox to scale a input + label.  
+[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)  
 ### Auto Scaling
-[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)
+Problem:  
+Some elements can both be small or big.  
+They should simply take up the available space.  
+Below this is done for a input element using flexbox.  
+[scale + wrap label and input depending on width](./code/wrap_label_input/README.md)  
 ### Battle of layout - table block flex grid absolute
 #### Tables:
 When something is a table we should try using a table, but ...
