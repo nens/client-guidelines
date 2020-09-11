@@ -35,6 +35,10 @@ Other chapters probably do not contain content yet.
 - [Object oriented and Functional programming](#object-oriented-and-functional-programming)
 - [Bad practices](#bad-practices)
 
+[Data Model](#data-model)
+
+
+
 # Summary
 Goal of this document is for front-end developers to look up what would be the preferred solution for a given problem.  
 It is a collection of problems and potential solutions.  
@@ -93,6 +97,7 @@ then they can often be shown beneath each other.
 This is called wrapping and can happen automaticly with CSS based on the available space.  
 Below is an example using flexbox to scale a input + label.  
 [scale + wrap label and input depending on width](./code/wrap_label_input/README.md)  
+
 ### Auto Scaling
 Problem:  
 Some elements can both be small or big.  
@@ -134,5 +139,12 @@ We should investigate on this.
 ## Mitigate side effects
 ## Object oriented and Functional programming
 ## Bad practices
+
+# Data Model
+
+## Time series
+
+[UML entity relation diagram](./data_model/timeseries.md)  
+
 
 
